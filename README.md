@@ -1,20 +1,31 @@
-![cf](https://i.imgur.com/7v5ASc8.png) Lab 30: Basic Sorting
-======
+# Sorting Algorithm Research
 
-## Submission Instructions
-* Work in a fork of this repository
-* Work in a branch on your fork
-* Open a pull request to this repository
-* Submit on canvas a question and observation, how long you spent, and a link to your pull request
+**Author**: Mario Flores Jr.
 
-## Feature Tasks  
-### Sorting Method
-Research and implement the following Sorting Methods:
-* [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)
-* [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)
-* [Selection Sort](https://en.wikipedia.org/wiki/Selection_sort)
+**Version**: 1.0.0
 
-Your function should take an integer array a a single argument and sort it in-place (e.g. mutate the array). You can use helper functions if you need extra arguments in your sorting procedure.
+## Overview
 
-## Documentation
-In your README.md describe the exported values of each module you have defined. Every function description should include it's airty (expected number of paramiters), the expected data for each paramiter (data-type and limitations), and it's behavior (for both valid and invalued use). Feel free to write any additional information in your README.md.
+This lab is an exercise in researching three particular sorting algorithms, and implementing them into working functions that each take an integer array as a single argument and sorting it appropriately.
+
+## Sorting Algorithms
+
+### Bubble Sort
+- Goes through the given array by comparing two adjacent values, checking if they are in correct order. If the adjacent values are not in correct order, they are swapped, and the sort moves down to the next adjacent values. The pattern continues until array is completely sorted.
+
+```Big O: Time - O(n2) Space - O(1)```
+
+### Insertion Sort
+- Goes through the given array and compares the values of a current index with previous index values and will insert the value into the correct order. The pattern continues until the array is completely sorted.
+
+```Big O: Time - O(n2) Space - O(1)```
+
+### Selection Sort
+
+- Goes through the given array and finds the smallest value, swapping it into the correct position. The pattern continues until the array is completely sorted.
+
+```Big O: Time - O(n2) Space - O(1)```
+
+## Architecture
+
+JavaScript, babel, eslint
